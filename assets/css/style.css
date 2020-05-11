@@ -1,0 +1,16 @@
+.buttons-container {
+    background-color: gray;
+}
+
+button {
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+.gifs-container {
+    background-color: blanchedalmond;
+}
+
+.new-button {
+    background-color: lightskyblue;
+}
