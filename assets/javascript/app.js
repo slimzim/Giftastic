@@ -165,8 +165,7 @@ $(document).on("click", ".fav-button", function(){
 $(document).on("click", ".remove-fav", function(){
     console.log($(this).attr("favGifNumber"))
     console.log("removeValue" + favGifNumber)
-    $(".faves-div").remove(".removeValue" + favGifNumber)
-    $(".faves-div").remove(".removeMe")
-    $(".faves-div").remove(".removeValue1")
+    $(this).parent().remove();
 })
 
+    
