@@ -1,28 +1,64 @@
 .buttons-container {
-    background-color: gray;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 button {
     padding: 10px;
     margin: 5px 10px;
     white-space: normal;
+    border-radius: 16px;
+    background-color: whitesmoke;
+}
+
+.jumbotron {
+    border-radius: 0px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+
+.jumbotron h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 48px;
 }
 
 .gifs-container {
     background-color: blanchedalmond;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .new-button {
     background-color: lightskyblue;
+    text-align: center;
+    padding-top: 10px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.new-button h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 48px;
+    
 }
 
 .gif-div {
     float: left;
     height: 225px;
+    background-color: whitesmoke;
+}
+
+.container-break {
+    clear: both;
 }
 
 .jumbotron {
-    background-color: cyan;
+    background-color: lightskyblue;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 0px;

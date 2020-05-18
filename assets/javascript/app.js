@@ -82,7 +82,7 @@ $(document).on("click", ".character-button", function(){
         moreGifsButton.addClass("character-button queryLimit-raiser")
         moreGifsButton.attr("data-name", characterName)
         moreGifsButton.appendTo(".gifs-container")
-
+        
     })
 })
 
